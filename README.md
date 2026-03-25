@@ -81,7 +81,7 @@ def CREATE_IMAGE_KEY(baseCode, seed):
     return encKey
 ```
 
-**Note:** Video stream use a similar algorithm, this algorithm is for image encryption.
+**Note:** Video stream uses a similar algorithm, this algorithm is for image encryption.
 
 # 5. Proof of Concept (Steps to Reproduce)
 1.  **Capture Traffic**: Monitor the local network or intercept the image file transfer to extract the eufysecurity header.
@@ -91,7 +91,7 @@ def CREATE_IMAGE_KEY(baseCode, seed):
 3.  **Key Reconstruction**: 
     * For P2P: Concatenate the known PPCS_ID and Serial Number.
 
-    * For Media: Utilize the create_pic_code_v1 logic. If the PPCS_ID is unknown, run a brute-force attack on the 4-character integer suffix.
+    * For Media: Utilize the reverse-engineered logic to reconstruct the key. If the PPCS_ID is unknown, run a brute-force attack on the 4-character integer suffix.
 
 4.  **Decryption**: Use the reconstructed key to decrypt the P2P stream or the image header, granting access to the raw media.
 
@@ -99,3 +99,12 @@ def CREATE_IMAGE_KEY(baseCode, seed):
 -   **Total Confidentiality Loss**: An attacker with access to intercepted traffic can view private photos/videos.
 
 -   **Passive Exploitation**: No active interaction with the device is required; decryption is possible purely through passive observation.
+
+## Research Publication
+This repository contains the proof-of-concept details for the research presented at **USENIX WOOT '24**. 
+
+**Paper Title:** Reverse Engineering the Eufy Ecosystem: A Deep Dive into Security Vulnerabilities and Proprietary Protocols
+**Authors:** Victor Goeman, Dairo de Ruck, Tom Cordemans, Jorn Lapon, and Vincent Naessens, DistriNet, KU Leuven
+**Conference:** 18th USENIX WOOT Conference on Offensive Technologies (WOOT 24)
+
+**[Read the Full Paper on USENIX](https://www.usenix.org/conference/woot24/presentation/goeman)**
