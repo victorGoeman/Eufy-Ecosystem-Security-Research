@@ -36,3 +36,8 @@ The analysis was performed using a combination of:
 3. **Traffic Analysis:** Intercepting and decrypting proprietary P2P packets via Wireshark.
 
 ---
+## Research Context
+This vulnerability was discovered and documented as part of an academic security audit performed at **DistriNet (KU Leuven)**. 
+
+* **Research Group:** [DistriNet](https://iiw.kuleuven.be/onderzoek/distrinet)
+* **Institution:** KU Leuven, Faculty of Engineering Technology, Technology Campus Ghent.
