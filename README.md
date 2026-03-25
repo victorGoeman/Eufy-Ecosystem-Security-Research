@@ -25,7 +25,7 @@ This research explores the systematic failures in the proprietary cryptographic 
 | CVE ID | Title | Severity | Impact |
 | :--- | :--- | :--- | :--- |
 | **[CVE-2023-37822](./CVE-2023-37822.md)** | Low Entropy WPA2-PSK | 8.2 (High) | Proximity-based LAN intrusion (20s crack time). |
-| **[CVE-CVE-2024-51346](./CVE-2024-51346.md)** | Deterministic AES Keying | 7.7 (High) | Bulk decryption of stored user media via CPUID. |
+| **[CVE-2024-51346](./CVE-2024-51346.md)** | Deterministic AES Keying | 7.7 (High) | Bulk decryption of stored user media via CPUID. |
 
 ---
 
