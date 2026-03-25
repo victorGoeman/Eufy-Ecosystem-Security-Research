@@ -1,5 +1,21 @@
 # CVE-2024-51346: Cryptographic Bypass and Media Decryption in Eufy Ecosystem
 
+## Vulnerability Metadata
+
+| Field | Details |
+| :--- | :--- |
+| **Vendor** | Eufy (Anker) |
+| **Product** | Homebase 2 |
+| **Affected Version** | Up to and including v3.3.4.1h |
+| **Component** | P2P Communication Protocol / Encrypted Media |
+| **Attack Type** | Network & Physical |
+| **CWE ID** | CWE-330: Use of Insufficiently Random Values, CWE-321: Use of Hard-coded Cryptographic Key |
+| **CVSS 3.1 Vector** | `CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N` |
+| **Base Score** | 7.7 (High) |
+| **Impact** | Full loss of confidentiality for stored media and live P2P streams. |
+
+---
+
 ## 1. Vulnerability Overview
 * **Vulnerability Type:** Use of Insufficiently Entropic Keys (CWE-331) / Insufficient Encryption (CWE-311)
 * **Severity:** Critical
