@@ -103,8 +103,8 @@ def CREATE_IMAGE_KEY(baseCode, seed):
 ## Research Publication
 This repository contains the proof-of-concept details for the research presented at **USENIX WOOT '24**. 
 
-**Paper Title:** Reverse Engineering the Eufy Ecosystem: A Deep Dive into Security Vulnerabilities and Proprietary Protocols
-**Authors:** Victor Goeman, Dairo de Ruck, Tom Cordemans, Jorn Lapon, and Vincent Naessens, DistriNet, KU Leuven
-**Conference:** 18th USENIX WOOT Conference on Offensive Technologies (WOOT 24)
+**Paper Title:** Reverse Engineering the Eufy Ecosystem: A Deep Dive into Security Vulnerabilities and Proprietary Protocols  
+**Authors:** Victor Goeman, Dairo de Ruck, Tom Cordemans, Jorn Lapon, and Vincent Naessens, DistriNet, KU Leuven  
+**Conference:** 18th USENIX WOOT Conference on Offensive Technoloies (WOOT 24)  
 
 **[Read the Full Paper on USENIX](https://www.usenix.org/conference/woot24/presentation/goeman)**
